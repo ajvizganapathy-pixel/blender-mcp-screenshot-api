@@ -162,7 +162,7 @@ def _internal_helper():
 
 ```python
 # 1. Load the script
-exec(open('/path/to/blender_quick_template.py').read())
+exec(open('/path/to/scripts/blender_quick_template.py').read())
 
 # 2. Test initialization
 mcp = QuickBlenderMCP()
@@ -196,8 +196,8 @@ print("✓ All manual tests passed")
 ### Updating Docs
 
 - **SKILL.md** — Skill definition and quick reference
-- **API_REFERENCE.md** — Complete API documentation
-- **BLENDER_MCP_WORKFLOW.md** — Detailed workflow guide
+- **references/API_REFERENCE.md** — Complete API documentation
+- **references/BLENDER_MCP_WORKFLOW.md** — Detailed workflow guide
 
 ### Doc Standards
 

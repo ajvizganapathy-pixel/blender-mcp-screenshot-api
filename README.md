@@ -63,10 +63,10 @@
 
 ### Step 1: Load Template in Blender
 
-Copy entire contents of `blender_quick_template.py` into **Blender Script Editor** (Alt+Tab):
+Copy entire contents of `scripts/blender_quick_template.py` into **Blender Script Editor** (Alt+Tab):
 
 ```python
-exec(open('/path/to/blender_quick_template.py').read())
+exec(open('/path/to/scripts/blender_quick_template.py').read())
 ```
 
 ### Step 2: Capture Your Scene
@@ -158,7 +158,7 @@ Then reference in Claude: The skill is automatically detected.
 
 ```python
 # In Blender Script Editor:
-exec(open('/path/to/blender_quick_template.py').read())
+exec(open('/path/to/scripts/blender_quick_template.py').read())
 mcp = QuickBlenderMCP()
 state = mcp.capture_and_export()
 ```
@@ -351,12 +351,12 @@ blender-mcp-feedback/
 
 | File | Size | Purpose | Best For |
 |------|------|---------|----------|
-| `blender_quick_template.py` | 12 KB | Minimal, copy-paste implementation | Getting started immediately |
-| `blender_mcp_callback_system.py` | 18 KB | Full production system | Advanced session management |
-| `blender_mcp_handler.py` | 16 KB | Analysis engine | Understanding Claude side |
+| `scripts/blender_quick_template.py` | 12 KB | Minimal, copy-paste implementation | Getting started immediately |
+| `scripts/blender_mcp_callback_system.py` | 18 KB | Full production system | Advanced session management |
+| `scripts/blender_mcp_handler.py` | 16 KB | Analysis engine | Understanding Claude side |
 | `SKILL.md` | 25 KB | Skill definition | Reference & command syntax |
-| `API_REFERENCE.md` | 22 KB | Technical documentation | Building extensions |
-| `BLENDER_MCP_WORKFLOW.md` | 28 KB | Complete workflow guide | Mastering the system |
+| `references/API_REFERENCE.md` | 22 KB | Technical documentation | Building extensions |
+| `references/BLENDER_MCP_WORKFLOW.md` | 28 KB | Complete workflow guide | Mastering the system |
 
 ---
 
@@ -463,7 +463,7 @@ bpy.context.scene.cycles.use_denoising = True
 **A:** Only to communicate with Claude (send JSON, receive commands). Blender execution is fully local.
 
 ### Q: Can I extend this with custom commands?
-**A:** Yes! Edit `apply_mcp_command()` in `blender_mcp_callback_system.py` to add custom commands.
+**A:** Yes! Edit `apply_mcp_command()` in `scripts/blender_mcp_callback_system.py` to add custom commands.
 
 ### Q: What's the minimum Blender version?
 **A:** Blender 3.5+ (tested and verified on 3.5, 3.6, 4.0+)
@@ -554,7 +554,7 @@ MIT License — Free to use, modify, and distribute
 
 ### Getting Started
 1. Read this README
-2. Load `blender_quick_template.py`
+2. Load `scripts/blender_quick_template.py`
 3. Run a single iteration cycle
 4. Review Claude's suggestions and commands
 
@@ -562,11 +562,11 @@ MIT License — Free to use, modify, and distribute
 1. Study `SKILL.md` complete workflow
 2. Execute 3-4 full iteration cycles
 3. Experiment with different scene types
-4. Read `BLENDER_MCP_WORKFLOW.md`
+4. Read `references/BLENDER_MCP_WORKFLOW.md`
 
 ### Advanced
-1. Read `API_REFERENCE.md` complete reference
-2. Study `blender_mcp_callback_system.py` implementation
+1. Read `references/API_REFERENCE.md` complete reference
+2. Study `scripts/blender_mcp_callback_system.py` implementation
 3. Create custom MCP commands
 4. Build Blender add-on integration
 
@@ -576,7 +576,7 @@ MIT License — Free to use, modify, and distribute
 
 - [ ] Download `blender-mcp-feedback/` folder
 - [ ] Open Blender with your .blend file
-- [ ] Copy `blender_quick_template.py` to your project
+- [ ] Copy `scripts/blender_quick_template.py` to your project
 - [ ] Open Script Editor (Alt+Tab)
 - [ ] Paste entire template script
 - [ ] Run it (Alt+P) or press play button
@@ -598,8 +598,8 @@ MIT License — Free to use, modify, and distribute
 
 1. Check the **Troubleshooting** section above
 2. Review **FAQ** for common questions
-3. Consult `BLENDER_MCP_WORKFLOW.md` for detailed examples
-4. Read `API_REFERENCE.md` for technical details
+3. Consult `references/BLENDER_MCP_WORKFLOW.md` for detailed examples
+4. Read `references/API_REFERENCE.md` for technical details
 
 ---
 
@@ -609,7 +609,7 @@ MIT License — Free to use, modify, and distribute
 
 ```python
 # Your first command:
-exec(open('/path/to/blender_quick_template.py').read())
+exec(open('/path/to/scripts/blender_quick_template.py').read())
 mcp = QuickBlenderMCP()
 state = mcp.capture_and_export()
 ```

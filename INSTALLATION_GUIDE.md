@@ -49,7 +49,7 @@ The scripts are immediately usable. Copy any script into your Blender project:
 
 ```python
 # In Blender Script Editor:
-exec(open('/path/to/blender_quick_template.py').read())
+exec(open('/path/to/scripts/blender_quick_template.py').read())
 ```
 
 ---
@@ -58,7 +58,7 @@ exec(open('/path/to/blender_quick_template.py').read())
 
 ### Step 1: Load Template in Blender
 
-Copy entire contents of `blender_quick_template.py` into **Blender Script Editor** and run.
+Copy entire contents of `scripts/blender_quick_template.py` into **Blender Script Editor** and run.
 
 ### Step 2: Capture Your Viewport
 
@@ -172,22 +172,22 @@ Claude automatically uses this skill when you ask about:
 - **Read when:** Setting up, you need command syntax, overview
 - **Time:** 10 minutes
 
-### blender_quick_template.py (Start Here)
+### scripts/blender_quick_template.py (Start Here)
 - **What:** Minimal, copy-paste implementation
 - **Read when:** You want to start immediately
 - **Time:** 2 minutes to copy, 1 minute to run
 
-### blender_mcp_callback_system.py (Full System)
+### scripts/blender_mcp_callback_system.py (Full System)
 - **What:** Complete production implementation with all features
 - **Read when:** You need advanced session management
 - **Time:** 30 minutes study, 5 minutes to integrate
 
-### BLENDER_MCP_WORKFLOW.md (Detailed Guide)
+### references/BLENDER_MCP_WORKFLOW.md (Detailed Guide)
 - **What:** Complete workflow examples, troubleshooting, pro tips
 - **Read when:** You want to master the system
 - **Time:** 20 minutes
 
-### API_REFERENCE.md (Technical Docs)
+### references/API_REFERENCE.md (Technical Docs)
 - **What:** Class methods, MCP command specs, architecture
 - **Read when:** Building custom extensions
 - **Time:** Reference, as needed
@@ -197,7 +197,7 @@ Claude automatically uses this skill when you ask about:
 ## 🎓 Learning Path
 
 **Beginner (Just want results):**
-1. Load `blender_quick_template.py`
+1. Load `scripts/blender_quick_template.py`
 2. Run it in Blender
 3. Send screenshot to Claude
 4. Execute Claude's commands
@@ -205,13 +205,13 @@ Claude automatically uses this skill when you ask about:
 
 **Intermediate (Want to understand it):**
 1. Read: SKILL.md quick start section
-2. Study: `blender_quick_template.py` code
-3. Read: BLENDER_MCP_WORKFLOW.md complete workflow
+2. Study: `scripts/blender_quick_template.py` code
+3. Read: `references/BLENDER_MCP_WORKFLOW.md` complete workflow
 4. Practice: Do 3-4 full iteration cycles
 
 **Advanced (Building on it):**
-1. Read: API_REFERENCE.md complete reference
-2. Study: `blender_mcp_callback_system.py` architecture
+1. Read: `references/API_REFERENCE.md` complete reference
+2. Study: `scripts/blender_mcp_callback_system.py` architecture
 3. Extend: Add custom MCP commands
 4. Integrate: Build into your Blender add-on
 
@@ -238,7 +238,7 @@ Claude automatically uses this skill when you ask about:
 → Install Pillow: `pip install Pillow`  
 → Use Blender's built-in Python instead
 
-**More help:** See BLENDER_MCP_WORKFLOW.md "Debugging" section
+**More help:** See `references/BLENDER_MCP_WORKFLOW.md` "Debugging" section
 
 ---
 
@@ -334,7 +334,7 @@ Claude automatically uses this skill when you ask about:
 
 - [ ] Download skill files
 - [ ] Open Blender with your .blend file
-- [ ] Copy `blender_quick_template.py` to your project directory
+- [ ] Copy `scripts/blender_quick_template.py` to your project directory
 - [ ] Open Blender Script Editor (Alt+Tab)
 - [ ] Paste entire template script
 - [ ] Run it (Alt+P)
@@ -357,11 +357,11 @@ Claude automatically uses this skill when you ask about:
 | File | Purpose | Size |
 |------|---------|------|
 | SKILL.md | Skill definition & quick start | 25 KB |
-| blender_quick_template.py | Fast setup version | 12 KB |
-| blender_mcp_callback_system.py | Full system | 18 KB |
-| blender_mcp_handler.py | Analysis engine | 16 KB |
-| BLENDER_MCP_WORKFLOW.md | Complete guide | 28 KB |
-| API_REFERENCE.md | Technical docs | 22 KB |
+| scripts/blender_quick_template.py | Fast setup version | 12 KB |
+| scripts/blender_mcp_callback_system.py | Full system | 18 KB |
+| scripts/blender_mcp_handler.py | Analysis engine | 16 KB |
+| references/BLENDER_MCP_WORKFLOW.md | Complete guide | 28 KB |
+| references/API_REFERENCE.md | Technical docs | 22 KB |
 
 **Total:** ~121 KB (all text, no binaries)
 
@@ -381,9 +381,9 @@ The skill is ready to use immediately. No complex setup required!
 
 ## 📞 Need Help?
 
-- **Quick issues:** Check BLENDER_MCP_WORKFLOW.md troubleshooting section
-- **Command syntax:** See API_REFERENCE.md MCP Command Specifications
-- **Workflow questions:** See BLENDER_MCP_WORKFLOW.md complete examples
+- **Quick issues:** Check `references/BLENDER_MCP_WORKFLOW.md` troubleshooting section
+- **Command syntax:** See `references/API_REFERENCE.md` MCP Command Specifications
+- **Workflow questions:** See `references/BLENDER_MCP_WORKFLOW.md` complete examples
 - **First time?** Start with SKILL.md Quick Start section
 
 ---
