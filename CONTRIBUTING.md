@@ -14,11 +14,11 @@ Thank you for your interest in contributing! This guide will help you get starte
 
 ```bash
 # Fork the repository on GitHub, then:
-git clone https://github.com/YOUR-USERNAME/blender-mcp-feedback.git
-cd blender-mcp-feedback
+git clone https://github.com/YOUR-USERNAME/blender-mcp-screenshot-api.git
+cd blender-mcp-screenshot-api
 
 # Add upstream remote
-git remote add upstream https://github.com/ORIGINAL-OWNER/blender-mcp-feedback.git
+git remote add upstream https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api.git
 ```
 
 ### Set Up Development Environment

@@ -5,8 +5,8 @@
 [![Blender](https://img.shields.io/badge/Blender-3.5%2B-orange)](https://www.blender.org/)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/)
-[![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)](https://github.com/)
+[![Status](https://img.shields.io/badge/Status-Production%20Ready-brightgreen)](https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api)
+[![Version](https://img.shields.io/badge/Version-1.0.0-blueviolet)](https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api/releases)
 
 ---
 
@@ -146,7 +146,7 @@ Capture → Send → Analyze → Execute → Repeat until quality ≥ 85/100
 
 ```bash
 # Clone or download to your machine
-git clone https://github.com/yourusername/blender-mcp-feedback.git
+git clone https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api.git
 
 # Copy to Claude skills directory
 cp -r blender-mcp-feedback ~/Claude/skills/
@@ -622,7 +622,7 @@ state = mcp.capture_and_export()
 
 **v1.0.0** • Blender 3.5+ • Python 3.8+ • ✓ Production Ready
 
-[⬆ Back to Top](#blender-claude-mcp-feedback-loop) • [Report Issue](#) • [Request Feature](#)
+[⬆ Back to Top](#-blender-claude-mcp-feedback-loop) • [Report Issue](https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api/issues) • [Request Feature](https://github.com/ajvizganapathy-pixel/blender-mcp-screenshot-api/issues)
 
 **Made with ❤️ for Blender & AI lovers**
 
